@@ -32,3 +32,22 @@ as properties
 # What I'm gonna do specifically?
 
 Since this is just for practice, nothing much really, but i have already planning a few extra concepts that i can add. :D 
+
+
+## Plans
+
+{
+  "vault_id": 1,
+  "description":"Text example",
+  "tasks": [{
+    "id": 1,
+    "description": "Holaaa",
+    "status": "todo, progress,done",
+    "createdAt": "2025-03-14 12:00:00",
+    "updatedAt": "2024-03-14 15:00:00"
+  }]
+}
+
+this is how my code is gonna looks like, an extra requirement is that we should add a commanda to create a new vault. Our final file can be an array of vaults!
+
+Added to that, we should have a dictionary where stores an array of vaults too.
